@@ -36,7 +36,7 @@ jobs:
       
       # Runs docker build 
       - name: Build docker image
-        run: sudo docker build -t aquasaemea/insecure-bank-app:${{ github.sha }} .
+        run: sudo docker build -t aquajcampbell/insecure-bank-app:${{ github.sha }} .
       
       # Aqua Registry login
       - name: Login to Aqua Registry
