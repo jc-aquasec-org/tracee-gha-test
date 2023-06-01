@@ -82,7 +82,8 @@ jobs:
             # The docker image name:tag of the newly built image
             # --artifact-path "my-image-name:${{ env.tag-version }}" 
             # OR the path to the root folder of your project. I.e my-repo/my-app 
-            # --artifact-path "${{env.MY_APP_ROOT}}"        
+            # --artifact-path "${{env.MY_APP_ROOT}}"     
+            
       - name: Stop Tracee
         uses: argonsecurity/tracee-commercial-action@main
         with:
