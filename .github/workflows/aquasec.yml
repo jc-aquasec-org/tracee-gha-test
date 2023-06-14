@@ -6,7 +6,6 @@ on:
   pull_request:
     branches: 
       - main
-      # comment
 
 env:
    DOCKER_REPOSITORY: aquajcampbell # name of Docker Hub ID
